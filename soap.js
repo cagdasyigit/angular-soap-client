@@ -1,8 +1,8 @@
 'use strict';
 
-var PrmWebApp = angular.module('PrmWebApp');
+var myApp = angular.module('myApp');
 
-PrmWebApp.register.factory("$soap", ['$q', '$rootScope', function ($q, $rootScope) {
+myApp.factory("$soap", ['$q', '$rootScope', function ($q, $rootScope) {
 	// Changes XML to JSON
 	var xmlToJson = function (xml) {
 		

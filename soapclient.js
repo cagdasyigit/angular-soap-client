@@ -1,11 +1,3 @@
-/*****************************************************************************\
-
- Javascript "SOAP Client" library
- 
- @version: 2.4 - 2007.12.21
- @author: Matteo Casati - http://www.guru4.net/
- 
-\*****************************************************************************/
 SOAPClientParameters.attributeSign = "@";
 
 function SOAPClientParameters()
